@@ -5,7 +5,7 @@ WORKDIR /app
 COPY ./requirements.txt ./requirements.txt
 RUN pip install -r requirements.txt
 
-ADD ./models ./models
+ADD ./model ./model
 ADD server.py server.py
 
 # Expose Port 5000 in docker container

@@ -1,0 +1,3 @@
+curl --location --request POST 'http://localhost:5000/predict' --header 'Content-Type: application/json' --data-raw '{
+ "floor_area_sqm": 1000, "town": "Bishan", "remaining_lease": 90, "storey_category": "low", "distance_to_mrt": 500, "distance_to_pri_sch": 500, "distance_to_shopping": 500
+}'
